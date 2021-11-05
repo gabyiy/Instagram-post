@@ -1,45 +1,63 @@
-
-body {
-  line-height: 0.5rem;
-  margin: 0;
-  height: 100%;
+body{
+  background: black;
 }
-.dFlex {
+.post{
+  background-color: white;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+  width: 400px;
+  height: 500px;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 5px;
+ 
+}
+.headpost{
   display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  width: 400px;
+  height: 50px;
 }
-.emoji {
-  font-size: 200%;
-  padding-top: 1.5rem;
-  padding-left: 2rem;
-}
+.logo{
+  display: flex;
+  width: 25px;
+  height: 25px;
+  margin: 5px;
 
-.title {
-  padding-left: 1rem;
-  width: 94%;
-}
-.threedots {
-  padding-top: 1.5rem;
 }
 .fas {
-  font-size: 200%;
-  padding-bottom: 1rem;
+  display: flex;
+  margin-left: 280px;
+  margin-top: 8px;
 }
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  height: 50rem;
+.postImg img{
+  
+  width: 400px;
+  height: 220px;
+  
 }
-.divI {
-  width: 88%;
+.social{
+  margin: 5px;
 }
-
-.footer {
-  line-height: 1rem;
-  padding-top: 2rem;
+.far{
+  width: 30px;
+  height: 30px;
+  margin: none;
+  font-size: 25px;
 }
-.padh2 {
-  padding-top: 20px;
-  line-height: 1.5rem;
+.fa-bookmark{
+ 
+  margin-left: 255px;
+  
+}
+.likes{
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.caption{
+  margin: 15px;
 }
